@@ -1,7 +1,9 @@
-import { BriefcaseIcon, BuildingIcon, UsersIcon } from './Icons';
+import briefcaseIcon from '../../assets/dashboard/briefcase-duotone 1.svg';
+import buildingsIcon from '../../assets/dashboard/buildings-duotone 1.svg';
+import usersIcon from '../../assets/dashboard/users-duotone 1.svg';
 
 interface StatItemProps {
-  icon: React.ReactNode;
+  icon: string;
   value: string;
   label: string;
 }
@@ -10,7 +12,7 @@ function StatItem({ icon, value, label }: StatItemProps) {
   return (
     <div className="flex items-center gap-4 bg-white rounded-lg p-5 shadow-sm">
       <div className="w-[72px] h-[72px] rounded-lg bg-[#FFF0F0] flex items-center justify-center">
-        {icon}
+        <img src={icon} alt={label} className="w-10 h-10" />
       </div>
       <div>
         <p className="text-[24px] font-semibold text-[#18191C] leading-8">{value}</p>
@@ -23,22 +25,22 @@ function StatItem({ icon, value, label }: StatItemProps) {
 export default function StatsSection() {
   const stats = [
     {
-      icon: <BriefcaseIcon className="w-10 h-10 text-[#BC2228]" />,
+      icon: briefcaseIcon,
       value: '1,75,324',
       label: 'Live Job',
     },
     {
-      icon: <BuildingIcon className="w-10 h-10 text-[#BC2228]" />,
+      icon: buildingsIcon,
       value: '97,354',
       label: 'Companies',
     },
     {
-      icon: <UsersIcon className="w-10 h-10 text-[#BC2228]" />,
+      icon: usersIcon,
       value: '38,47,154',
       label: 'Candidates',
     },
     {
-      icon: <BriefcaseIcon className="w-10 h-10 text-[#BC2228]" />,
+      icon: briefcaseIcon,
       value: '7,532',
       label: 'New Jobs',
     },

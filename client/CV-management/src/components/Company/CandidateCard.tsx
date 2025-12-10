@@ -1,4 +1,5 @@
-import { MapPinIcon, ArrowRightIcon } from './Icons';
+import mapPinIcon from '../../assets/dashboard/MapPin.svg';
+import arrowRightIcon from '../../assets/dashboard/fi_arrow-right.svg';
 
 interface CandidateCardProps {
   name: string;
@@ -36,8 +37,8 @@ export default function CandidateCard({
         <div className="flex-1">
           <div className="flex items-center justify-between">
             <h3 className="text-[18px] font-medium text-[#18191C] leading-6">{name}</h3>
-            <button className="text-[#767F8C] hover:text-[#BC2228] transition-colors">
-              <ArrowRightIcon className="w-5 h-4" />
+            <button className="hover:opacity-70 transition-opacity">
+              <img src={arrowRightIcon} alt="View" className="w-5 h-5" />
             </button>
           </div>
           
@@ -74,7 +75,7 @@ export default function CandidateCard({
       
       {/* Location */}
       <div className="flex items-center gap-2 pt-3 border-t border-[#E4E5E8]">
-        <MapPinIcon className="w-[18px] h-[18px] text-[#767F8C]" />
+        <img src={mapPinIcon} alt="Location" className="w-[18px] h-[18px]" />
         <span className="text-[14px] text-[#767F8C]">{location}</span>
       </div>
     </div>
