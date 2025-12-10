@@ -8,7 +8,7 @@ const handleChange = (value: string) => {
 
 export default function NavbarLogOut() {
   return (
-    <div className='flex items-center justify-center py-[34px] postion-sticky top-0'>
+    <div className='flex items-center justify-center py-[34px] sticky top-0 bg-white'>
         <img src={LogoColor} alt="logo" />
         <div className='border-[#E4E5E8] border rounded-[5px] flex items-center w-[668px] h-[50px]'>
             <Select
