@@ -38,8 +38,9 @@ const Sidebar = () => {
                 <span className="text-sm">Thêm thông tin khác</span>
             </div>
 
-            <div className="border border-dashed border-gray-300 rounded-lg p-4 flex items-start gap-3 mb-4">
+            <div className="p-4 flex items-start gap-3 mb-4">
                 <div className="w-10 h-10 bg-gray-100 flex items-center justify-center rounded">
+                    <img src="https://res.cloudinary.com/dbwlo7lgt/image/upload/v1765338247/cv1_xtv2ks.png" alt="" />
 
                 </div>
                 <div className="flex-1">
@@ -89,11 +90,11 @@ const ProfileCard = () => {
                         </div>
                         <div className="flex items-center gap-2 text-[#C41E3A]">
                             <UserOutlined />
-                            <span>Gợi Tim</span>
+                            <span>Giới tính</span>
                         </div>
                         <div className="flex items-center gap-2 text-gray-600">
                             <EnvironmentOutlined />
-                            <span>Cầu Chữ Hàn Tói</span>
+                            <span>Địa chỉ hiện tại</span>
                         </div>
                         <div className="flex items-center gap-2 text-gray-600">
                             <UserOutlined />
