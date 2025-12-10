@@ -1,0 +1,27 @@
+/* Màu chữ tab được chọn */
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color:#BC2228 !important;
+  /*font-weight: 600;*/
+}
+/* chữ tab bình thường */
+.ant-tabs-tab .ant-tabs-tab-btn {
+  color: #5E6670 !important;
+}
+/* Màu gạch dưới */
+.ant-tabs-ink-bar {
+  background-color: #BC2228 !important;
+  
+}
+
+/* Hover */
+.ant-tabs-tab:hover .ant-tabs-tab-btn {
+  color: #ff4d4d !important;
+}
+.ant-tabs-nav-wrap{
+    padding-left: 30px;
+    background-color:#F1F2F4;
+}
+.ant-tabs-nav{
+    margin: 0 !important;
+    height: 48px;
+}
