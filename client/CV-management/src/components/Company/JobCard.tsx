@@ -1,4 +1,5 @@
-import { MapPinIcon, BookmarkIcon } from './Icons';
+import mapPinIcon from '../../assets/dashboard/MapPin.svg';
+import bookmarkIcon from '../../assets/dashboard/BookmarkSimple.svg';
 
 interface JobCardProps {
   title: string;
@@ -45,13 +46,13 @@ export default function JobCard({
         <div className="flex-1">
           <p className="text-[16px] font-medium text-[#18191C]">{company}</p>
           <div className="flex items-center gap-1">
-            <MapPinIcon className="w-[18px] h-[18px] text-[#767F8C]" />
+            <img src={mapPinIcon} alt="Location" className="w-[18px] h-[18px]" />
             <span className="text-[14px] text-[#767F8C]">{location}</span>
           </div>
         </div>
         
-        <button className="text-[#767F8C] hover:text-[#BC2228] transition-colors">
-          <BookmarkIcon className="w-6 h-6" />
+        <button className="hover:opacity-70 transition-opacity">
+          <img src={bookmarkIcon} alt="Bookmark" className="w-6 h-6" />
         </button>
       </div>
     </div>
