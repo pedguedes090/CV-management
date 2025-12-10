@@ -1,15 +1,7 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-<<<<<<< HEAD
 body {
-    font-family: 'Inter', sans-serif;
-=======
-* {
   font-family: 'Inter', sans-serif;
-}
-
-body {
-  margin: 0;
-  padding: 0;
->>>>>>> a9e0dc7ec73667de0a23a2788b58a33d9453439c
 }
