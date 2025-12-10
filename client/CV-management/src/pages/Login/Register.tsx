@@ -132,7 +132,7 @@ export default function LoginUserForm() {
             </div>
 
             {/* Vertical Divider */}
-            <div className="w-px bg-gradient-to-b from-transparent via-gray-300 to-transparent"></div>
+            <div className="w-px bg-linear-to-b from-transparent via-gray-300 to-transparent"></div>
 
             {/* Right Section - Illustration */}
             <div className="w-1/2 flex items-center p-12">
