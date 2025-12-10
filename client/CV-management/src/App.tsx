@@ -1,11 +1,10 @@
-import './App.css'
-import LoginUserForm from './pages/Login/Register';
-function App() {
+import Dashboard from "./pages/dashboard/Dashboard"
 
+function App() {
 
   return (
     <>
-      <LoginUserForm />
+      <Dashboard></Dashboard>
     </>
   )
 }
