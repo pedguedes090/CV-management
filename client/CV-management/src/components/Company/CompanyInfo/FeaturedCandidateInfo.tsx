@@ -1,5 +1,5 @@
-import CandidateCard from './CandidateCard';
-import arrowRightIcon from '../../assets/dashboard/fi_arrow-right.svg';
+import CandidateCard from '../CompanyInfo/CandidateCard';
+import arrowRightIcon from '../../../assets/dashboard/fi_arrow-right.svg';
 
 const mockCandidates = [
   {
@@ -7,7 +7,7 @@ const mockCandidates = [
     position: 'Front-end',
     level: 'Fresher',
     technologies: ['ReactJS', 'VueJS'],
-    languages: ['N2'],
+    languages: ['EN'],
     location: 'Ha Noi, Viet Nam',
   },
   {
@@ -15,7 +15,7 @@ const mockCandidates = [
     position: 'Front-end',
     level: 'Fresher',
     technologies: ['ReactJS', 'VueJS'],
-    languages: ['N2'],
+    languages: ['EN'],
     location: 'Ha Noi, Viet Nam',
   },
   {
@@ -23,57 +23,9 @@ const mockCandidates = [
     position: 'Front-end',
     level: 'Fresher',
     technologies: ['ReactJS', 'VueJS'],
-    languages: ['N2'],
+    languages: ['EN'],
     location: 'Ha Noi, Viet Nam',
-  },
-  {
-    name: 'Tran Van D',
-    position: 'Back-end',
-    level: 'Junior',
-    technologies: ['NodeJS', 'NestJS'],
-    languages: ['N2'],
-    location: 'Ho Chi Minh, Viet Nam',
-  },
-  {
-    name: 'Le Thi E',
-    position: 'Full-stack',
-    level: 'Senior',
-    technologies: ['ReactJS', 'NodeJS'],
-    languages: ['N2'],
-    location: 'Da Nang, Viet Nam',
-  },
-  {
-    name: 'Pham Van F',
-    position: 'DevOps',
-    level: 'Middle',
-    technologies: ['Docker', 'K8s'],
-    languages: ['N2'],
-    location: 'Ha Noi, Viet Nam',
-  },
-  {
-    name: 'Hoang Van G',
-    position: 'Mobile',
-    level: 'Fresher',
-    technologies: ['React Native', 'Flutter'],
-    languages: ['N2'],
-    location: 'Ha Noi, Viet Nam',
-  },
-  {
-    name: 'Vu Thi H',
-    position: 'QA/QC',
-    level: 'Junior',
-    technologies: ['Selenium', 'Cypress'],
-    languages: ['N2'],
-    location: 'Ho Chi Minh, Viet Nam',
-  },
-  {
-    name: 'Dao Van I',
-    position: 'UI/UX',
-    level: 'Middle',
-    technologies: ['Figma', 'Adobe XD'],
-    languages: ['N2'],
-    location: 'Ha Noi, Viet Nam',
-  },
+  }
 ];
 
 export default function FeaturedCandidates() {

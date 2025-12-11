@@ -1,5 +1,6 @@
 import JobCard from './JobCard';
 import arrowRightIcon from '../../assets/dashboard/fi_arrow-right.svg';
+import logoGoogle from '../../assets/dashboard/LogoGG.svg';
 
 const mockJobs = [
   {
@@ -8,6 +9,7 @@ const mockJobs = [
     salary: 'Salary: $20,000 - $25,000',
     company: 'Google Inc.',
     location: 'Dhaka, Bangladesh',
+    logoUrl: logoGoogle,
   },
   {
     title: 'Senior UX Designer',
@@ -15,6 +17,7 @@ const mockJobs = [
     salary: 'Salary: $20,000 - $25,000',
     company: 'Google Inc.',
     location: 'Dhaka, Bangladesh',
+    logoUrl: logoGoogle,
   },
   {
     title: 'Marketing Officer',
@@ -22,6 +25,7 @@ const mockJobs = [
     salary: 'Salary: $20,000 - $25,000',
     company: 'Google Inc.',
     location: 'Dhaka, Bangladesh',
+    logoUrl: logoGoogle,
   },
   {
     title: 'Junior Graphic Designer',
@@ -29,6 +33,7 @@ const mockJobs = [
     salary: 'Salary: $20,000 - $25,000',
     company: 'Google Inc.',
     location: 'Dhaka, Bangladesh',
+    logoUrl: logoGoogle,
   },
   {
     title: 'Interaction Designer',
@@ -36,6 +41,7 @@ const mockJobs = [
     salary: 'Salary: $20,000 - $25,000',
     company: 'Google Inc.',
     location: 'Dhaka, Bangladesh',
+    logoUrl: logoGoogle,
   },
   {
     title: 'Project Manager',
@@ -43,6 +49,7 @@ const mockJobs = [
     salary: 'Salary: $20,000 - $25,000',
     company: 'Google Inc.',
     location: 'Dhaka, Bangladesh',
+    logoUrl: logoGoogle,
   },
   {
     title: 'Software Engineer',
@@ -50,6 +57,7 @@ const mockJobs = [
     salary: 'Salary: $20,000 - $25,000',
     company: 'Google Inc.',
     location: 'Dhaka, Bangladesh',
+    logoUrl: logoGoogle,
   },
   {
     title: 'Visual Designer',
@@ -57,6 +65,7 @@ const mockJobs = [
     salary: 'Salary: $20,000 - $25,000',
     company: 'Google Inc.',
     location: 'Dhaka, Bangladesh',
+    logoUrl: logoGoogle,
   },
   {
     title: 'Project Manager',
@@ -64,6 +73,7 @@ const mockJobs = [
     salary: 'Salary: $20,000 - $25,000',
     company: 'Google Inc.',
     location: 'Dhaka, Bangladesh',
+    logoUrl: logoGoogle,
   },
   {
     title: 'Front End Developer',
@@ -71,6 +81,7 @@ const mockJobs = [
     salary: 'Salary: $20,000 - $25,000',
     company: 'Google Inc.',
     location: 'Dhaka, Bangladesh',
+    logoUrl: logoGoogle,
   },
   {
     title: 'Senior UX Designer',
@@ -78,6 +89,7 @@ const mockJobs = [
     salary: 'Salary: $20,000 - $25,000',
     company: 'Google Inc.',
     location: 'Dhaka, Bangladesh',
+    logoUrl: logoGoogle,
   },
   {
     title: 'Marketing Manager',
@@ -85,6 +97,7 @@ const mockJobs = [
     salary: 'Salary: $20,000 - $25,000',
     company: 'Google Inc.',
     location: 'Dhaka, Bangladesh',
+    logoUrl: logoGoogle,
   },
 ];
 
