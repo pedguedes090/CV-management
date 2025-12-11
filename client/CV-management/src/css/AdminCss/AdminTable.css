@@ -2,6 +2,8 @@
 td,th{
     text-align: center;
     width: 180px;
+    padding: 5px;
+    border: 1px solid #e8e8ea;
 }
 input[type="date"]::-webkit-calendar-picker-indicator {
   opacity: 0;

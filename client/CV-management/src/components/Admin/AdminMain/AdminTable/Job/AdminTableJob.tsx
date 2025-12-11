@@ -1,11 +1,8 @@
 import React from 'react'
 import TableJob from './TableJob'
-// import { Space, Switch } from 'antd';
-// import imgCalendar from '../../../../assets/AdminImg/Calendar.png'
-// import imgDelete from '../../../../assets/AdminImg/Vector.png'
-import '../../../../css/AdminCss/AdminTable.css'
+import '../../../../../css/AdminCss/AdminTable.css'
 
-export default function AdminTable() {
+export default function AdminTableJob() {
   return (
     <div className=' w-full pt-[65px]'>
       <table className=" w-full">
