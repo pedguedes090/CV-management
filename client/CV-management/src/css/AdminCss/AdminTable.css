@@ -1,0 +1,12 @@
+
+td,th{
+    text-align: center;
+    width: 180px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  display: none;
+}
+.green-switch.ant-switch-checked {
+  background-color: #3CB043 !important; /* xanh lá khi on */
+}
