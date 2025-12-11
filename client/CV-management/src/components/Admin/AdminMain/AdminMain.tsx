@@ -1,10 +1,14 @@
 import React from 'react'
-import AdminTable from './AdminTable/AdminTable'
+import AdminTableJob from './AdminTable/Job/AdminTableJob'
+import AdminTableCompany from './AdminTable/Company/AdminTableCompany'
+import AdminTableUser from './AdminTable/Candidate/AdminTableUser'
 
-export default function AdminMain() {
+export default function AdminMain({ label }: { label: string }) {
   return (
     <div className='bg-[#FFFFFF] w-full  flex-1'>
-        <AdminTable/>
+        {label === 'Quản lý việc làm' && <AdminTableJob />}
+        {label === 'Quản lý công ty' && <AdminTableCompany />}
+        {label === 'Quản lý người dùng' && <AdminTableUser />}
     </div>
   )
 }
