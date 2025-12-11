@@ -7,7 +7,8 @@ import arrow_right from '../../assets/dashboard/fi_arrow-right.svg';
 import TagFeatureJob from '../../components/dashboard/TagFeatureJob';
 import TagFeatureCompany from '../../components/dashboard/TagFeaturecompany';
 import ClientsTestimonial from '../../components/dashboard/ClientsTestimonial';
-
+import arrow_left from '../../assets/dashboard/fi_arrow-left.svg';
+import Tracker from '../../assets/dashboard/Tracker.svg';
 
 export default function Dashboard() {
   return (
@@ -49,9 +50,16 @@ export default function Dashboard() {
                 <TagFeatureCompany></TagFeatureCompany>
             </div>
         </div>
-        <div className='bg-[#F1F2F4] px-[60px] py-[100px]'>
-            <h1 className='font-medium text-[40px] text-center mb-[50px]'>Clients Testimonial</h1>
-            <ClientsTestimonial></ClientsTestimonial>
+        <div className='relative'>
+            <div className='bg-[#F1F2F4] px-[60px] py-[100px]'>
+                <h1 className='font-medium text-[40px] text-center mb-[50px]'>Clients Testimonial</h1>
+                <ClientsTestimonial></ClientsTestimonial>
+                <div className='flex justify-between items-center absolute top-[50%] w-full right-0 px-1'>
+                    <img src={arrow_left} alt="arrow left" className='p-3 bg-white rounded-[5px] '/>
+                    <img src={arrow_right} alt="arrow right" className='p-3 bg-white rounded-[5px] '/>
+                </div>
+                <img src={Tracker} alt="tracker" className='mx-auto mt-[50px]'/>
+            </div>
         </div>
         
         <Footer></Footer>
