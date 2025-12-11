@@ -7,7 +7,7 @@ const mockCandidates = [
     position: 'Front-end',
     level: 'Fresher',
     technologies: ['ReactJS', 'VueJS'],
-    languages: ['EN'],
+    languages: ['N2'],
     location: 'Ha Noi, Viet Nam',
   },
   {
@@ -15,7 +15,7 @@ const mockCandidates = [
     position: 'Front-end',
     level: 'Fresher',
     technologies: ['ReactJS', 'VueJS'],
-    languages: ['EN'],
+    languages: ['N2'],
     location: 'Ha Noi, Viet Nam',
   },
   {
@@ -23,7 +23,7 @@ const mockCandidates = [
     position: 'Front-end',
     level: 'Fresher',
     technologies: ['ReactJS', 'VueJS'],
-    languages: ['EN'],
+    languages: ['N2'],
     location: 'Ha Noi, Viet Nam',
   },
   {
@@ -31,7 +31,7 @@ const mockCandidates = [
     position: 'Back-end',
     level: 'Junior',
     technologies: ['NodeJS', 'NestJS'],
-    languages: ['EN', 'JP'],
+    languages: ['N2'],
     location: 'Ho Chi Minh, Viet Nam',
   },
   {
@@ -39,7 +39,7 @@ const mockCandidates = [
     position: 'Full-stack',
     level: 'Senior',
     technologies: ['ReactJS', 'NodeJS'],
-    languages: ['EN'],
+    languages: ['N2'],
     location: 'Da Nang, Viet Nam',
   },
   {
@@ -47,7 +47,7 @@ const mockCandidates = [
     position: 'DevOps',
     level: 'Middle',
     technologies: ['Docker', 'K8s'],
-    languages: ['EN'],
+    languages: ['N2'],
     location: 'Ha Noi, Viet Nam',
   },
   {
@@ -55,7 +55,7 @@ const mockCandidates = [
     position: 'Mobile',
     level: 'Fresher',
     technologies: ['React Native', 'Flutter'],
-    languages: ['EN'],
+    languages: ['N2'],
     location: 'Ha Noi, Viet Nam',
   },
   {
@@ -63,7 +63,7 @@ const mockCandidates = [
     position: 'QA/QC',
     level: 'Junior',
     technologies: ['Selenium', 'Cypress'],
-    languages: ['EN', 'JP'],
+    languages: ['N2'],
     location: 'Ho Chi Minh, Viet Nam',
   },
   {
@@ -71,7 +71,7 @@ const mockCandidates = [
     position: 'UI/UX',
     level: 'Middle',
     technologies: ['Figma', 'Adobe XD'],
-    languages: ['EN'],
+    languages: ['N2'],
     location: 'Ha Noi, Viet Nam',
   },
 ];
