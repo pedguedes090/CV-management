@@ -1,9 +1,9 @@
-
+import React from 'react'
 import Header from '../../components/header_footer/Header'
 import Footer from '../../components/header_footer/Footer'
-import CVContent from '../../components/profileManagement/CVContent'
+import CVContent from '../../components/CVManagement/CVContent'
 import NavbarLogOut from '../dashboard/NavbarLogOut'
-export default function ProfileManagement() {
+function CVManagement() {
   return (
     <div className='w-full h-screen'>
         <Header></Header>
@@ -17,3 +17,5 @@ export default function ProfileManagement() {
     </div>
   )
 }
+
+export default CVManagement

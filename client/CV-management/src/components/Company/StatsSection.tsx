@@ -11,7 +11,7 @@ interface StatItemProps {
 function StatItem({ icon, value, label }: StatItemProps) {
   return (
     <div className="flex items-center gap-4 bg-white rounded-lg p-5 shadow-sm">
-      <div className="w-[72px] h-[72px] rounded-lg bg-[#FFF0F0] flex items-center justify-center">
+      <div className="w-[72px] h-[72px] rounded-lg bg-[#E7F0FA] flex items-center justify-center">
         <img src={icon} alt={label} className="w-10 h-10" />
       </div>
       <div>
