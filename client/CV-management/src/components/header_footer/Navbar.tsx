@@ -1,7 +1,8 @@
 import { Select } from 'antd'
 import LogoColor from '../../assets/dashboard/LogoColor.svg'
 import fi_search from '../../assets/dashboard/fi_search.svg'
-
+import bellFill from '../../assets/navbar/bell.fill.svg'
+import user from '../../assets/navbar/user.svg'
 const handleChange = (value: string) => {
   console.log(`selected ${value}`);
 };
@@ -25,10 +26,10 @@ export default function NavbarLogOut() {
             <img src={fi_search} alt="search icon" className='ps-5'/>
             <input type="text" placeholder='Job title, keyword, company' className='w-full outline-none ps-3'/>
         </div>
-        <div className='flex gap-3 font-semibold ms-[30px]'>
-            <button className='bg-[#BC2228] w-[134px] text-white h-12 rounded-[3px]'>Đăng Nhập</button>
-            <button className='bg-white border border-[#BC2228] w-[134px] text-[#BC2228] h-12 rounded-[3px]'>Đăng Kí</button>
-            <button className='bg-[#231651] w-[134px] text-white h-12 rounded-[3px]'>Đăng Tuyển</button>
+        <div className='flex gap-[30px]  ms-[30px]'>
+            <img src={bellFill} alt="notification bell" />
+            <img src={user} alt="user icon" />
+            <p className='text-[14px] font-medium text-[#BC2228]'>Nguyễn Minh Dương</p>
         </div>
     </div>
   )
