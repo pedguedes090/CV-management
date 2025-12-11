@@ -9,7 +9,7 @@ const CVContent = () => {
     return (
         <div className="min-h-screen bg-gray-100 py-8">
             {/* Breadcrumb */}
-            <div className="text-sm text-gray-500 mb-4 ml-7">
+            <div className="text-sm text-gray-500 mb-6 ml-8">
                 <span>Trang chủ</span>
                 <span className="mx-2">/</span>
                 <span className="text-gray-700">CV của bạn</span>
